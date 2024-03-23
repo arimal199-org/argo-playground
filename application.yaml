@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: git@github.com:arimal199-org/argo-playground.git
+    repoURL: https://github.com/arimal199-org/argo-playground.git
     targetRevision: HEAD
     path: dev
   destination: 

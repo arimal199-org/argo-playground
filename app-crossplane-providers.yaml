@@ -15,7 +15,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/arimal199-org/argo-playground.git
-    targetRevision: HEAD
+    # targetRevision: HEAD
+    targetRevision: new
     path: crossplane-providers
   destination:
     server: https://kubernetes.default.svc

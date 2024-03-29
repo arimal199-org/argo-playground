@@ -1,4 +1,4 @@
-apiVersion: argoproj.io/v1alpha1
+apiVersion: argoproj.io/v1beta1
 kind: Application
 metadata:
   name: appofapps
@@ -11,7 +11,8 @@ spec:
   project: default
   source:
     repoURL: https://github.com/arimal199-org/argo-playground.git
-    targetRevision: HEAD
+    # targetRevision: HEAD
+    targetRevision: new
     path: .
 
   destination:
